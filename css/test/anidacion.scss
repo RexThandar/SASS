@@ -1,0 +1,28 @@
+$colorPrimario: #f9a03f;
+body {
+    background: #1b3d82;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Todos estan dentro de la misma linea */
+.articulo {
+    background: #e9f1f7;
+    width: 500px;
+    padding: 20px;
+    .titulo {
+        color: $colorPrimario;
+        // color: #f9a03f;
+    }
+    .autor {
+        color: #4d5061;
+    }
+    div {
+        text-align: center;
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            color: $colorPrimario;
+            color: #f9a03f;
+        }
+    }
+}

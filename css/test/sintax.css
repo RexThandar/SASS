@@ -1,0 +1,15 @@
+/* SCSS es mas nuevo pero utiliza los {} y ; */
+/* SASS es antiguo pero no utiliza los {} y ;*/
+body {
+  background: #f2f2f2;
+}
+
+.articulo {
+  background: #fff;
+}
+.articulo .titulo {
+  color: aqua;
+}
+.articulo .autor {
+  color: blue;
+}/*# sourceMappingURL=sintax.css.map */
